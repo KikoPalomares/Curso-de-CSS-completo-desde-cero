@@ -1,0 +1,31 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif;
+    background-image: url("../img/bg-pattern.png");
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color: var(--primary-color-dark);
+}
+
+.text-secondary{
+    color: var(--secondary-color);
+}
