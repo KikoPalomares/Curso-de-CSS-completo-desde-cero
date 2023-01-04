@@ -1,0 +1,32 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav ul{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 10px;
+    background-color: bisque;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: beige;
+}
+
+.pull-right{
+    margin-left: auto;
+}
