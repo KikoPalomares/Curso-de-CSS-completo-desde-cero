@@ -1,23 +1,188 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kiko Palomares News</title>
-    <link rel="icon" type="image/x-icon" href="img/icon.png">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-    
-    <div id="container">
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- <div id="container">
         <div include-html="partials/header.html"></div> 
         <div include-html="partials/main-menu.html"></div>
         <div include-html="partials/aside.html"></div>
         <div include-html="partials/content.html"></div>
         <div include-html="partials/footer.html"></div>
+    </div> -->
+
+    <div id="container">
+      <div>
+        <header class="header">
+          <img src="img/logo.png" alt="Logo del tutor" />
+          <h1>Tutor <span class="text-secondary">News</span></h1>
+          <div class="color-change">
+            <div class="header-button">
+              <button id="color_theme_01">Tema 1</button>
+            </div>
+            <div class="header-button">
+              <button id="color_theme_02">Tema 2</button>
+            </div>
+            <div class="header-button">
+              <button id="color_theme_03">Tema 3</button>
+            </div>
+          </div>
+        </header>
+        <div>
+          <nav id="main-menu">
+            <ul>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a>Noticias</a>
+                <ul>
+                  <li>
+                    <a href="#">Desarrollo web</a>
+                  </li>
+                  <li>
+                    <a href="#">Programación</a>
+                  </li>
+                  <li>
+                    <a href="#">Desarrollo Móvil</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Academia</a>
+                <ul>
+                  <li>
+                    <a href="#" target="_blank">Academia</a>
+                  </li>
+                  <li>
+                    <a href="#">Programación</a>
+                  </li>
+                  <li>
+                    <a href="#">Desarrollo Móvil</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Contacto</a>
+                <ul>
+                  <li>
+                    <a href="#">Desarrollo web</a>
+                  </li>
+                  <li>
+                    <a href="#">Programación</a>
+                  </li>
+                  <li>
+                    <a href="#">Desarrollo Móvil</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <aside>
+        <div class="widget">
+          <h3>Iniciar sesión</h3>
+          <form>
+            <input type="email" name="email" placeholder="email" />
+            <input type="password" name="password" placeholder="password" />
+            <input type="submit" value="Entrar" />
+          </form>
+        </div>
+        <div class="widget">
+          <h3>Últimas entradas</h3>
+          <ul>
+            <li>
+              <a href="#">El desarrollo web no es más que copiar y pegar</a>
+            </li>
+            <li>
+              <a href="#">Como hacer un slider con HTML Y CSS</a>
+            </li>
+            <li>
+              <a href="#">¿Por qué HTML noes un lenguaj de programación</a>
+            </li>
+            <li>
+              <a href="#"
+                >Como poner la primera la primera letra en mayúscula con CSS</a
+              >
+            </li>
+            <li>
+              <a href="#">¿Qué es un lenguaje de marcado?</a>
+            </li>
+          </ul>
+        </div>
+        <div class="widget">
+          <h3>Frase del día</h3>
+          <blockquote>
+            La mejor manera de ser un programador es escribir código y estudiar
+            grandes programas que otra gente ha escrito
+          </blockquote>
+        </div>
+      </aside>
+
+      <section id="content">
+        <h1>Últimas Noticias</h1>
+        <article>
+          <h2>Noticia 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            minima ad vitae ex. Reprehenderit maiores, officia possimus ex rerum
+            suscipit laudantium eveniet tempore consequatur delectus, maxime
+            velit omnis sit aut.
+          </p>
+          <a href="#">Leer más</a>
+        </article>
+
+        <article>
+          <h2>Noticia 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            minima ad vitae ex. Reprehenderit maiores, officia possimus ex rerum
+            suscipit laudantium eveniet tempore consequatur delectus, maxime
+            velit omnis sit aut.
+          </p>
+          <a href="#">Leer más</a>
+        </article>
+
+        <article>
+          <h2>Noticia 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            minima ad vitae ex. Reprehenderit maiores, officia possimus ex rerum
+            suscipit laudantium eveniet tempore consequatur delectus, maxime
+            velit omnis sit aut.
+          </p>
+          <a href="#">Leer más</a>
+        </article>
+        <ul class="pagination">
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">5</a></li>
+        </ul>
+      </section>
+
+      <footer>
+        <div>
+          <a href="#" target="_blank">&copy; A mi web</a>
+        </div>
+        <div>
+          Aprende más sobre Desarrollo Web en la
+          <a href="#" target="_blank">Academia</a>
+        </div>
+      </footer>
     </div>
 
-    <script src="js/include-html.js"></script>
-</body>
-
+    <!-- <script src="js/include-html.js"></script> -->
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>

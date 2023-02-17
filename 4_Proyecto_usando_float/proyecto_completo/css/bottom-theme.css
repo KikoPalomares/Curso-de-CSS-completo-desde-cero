@@ -1,0 +1,76 @@
+.color-change {
+  display: flex;
+}
+
+.header-button > button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.header-button button {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 8px 5px;
+  font-size: 14px;
+  line-height: 1em;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.1s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out;
+  -moz-transition: background 0.1s ease-in-out;
+  -ms-transition: background 0.1s ease-in-out;
+  -o-transition: background 0.1s ease-in-out;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: hsl(187, 97%, 29%);
+  box-shadow: 0px 3px 0px 0px hsl(187, 96%, 20%);
+  text-decoration: none;
+}
+
+.header-button button:hover {
+  background-color: hsl(187, 91%, 49%);
+}
+
+.header-button button:active {
+  box-shadow: 0px 1px 0px 0px hsl(187, 96%, 20%);
+}
+
+#color_theme_02 {
+  background-color: hsl(205, 42%, 45%);
+  box-shadow: 0px 3px 0px 0px hsl(205, 89%, 32%);
+}
+
+#color_theme_02:hover {
+  background-color: hsl(205, 83%, 55%);
+}
+
+#color_theme_02:active {
+  box-shadow: 0px 1px 0px 0px hsl(205, 89%, 32%);
+}
+
+#color_theme_03 {
+  background-color: hsl(153, 39%, 50%);
+  box-shadow: 0px 3px 0px 0px hsl(153, 83%, 39%);
+}
+
+#color_theme_03:hover {
+  background-color: hsl(153, 86%, 62%);
+}
+
+#color_theme_03:active {
+  box-shadow: 0px 1px 0px 0px hsl(153, 83%, 39%);
+}
