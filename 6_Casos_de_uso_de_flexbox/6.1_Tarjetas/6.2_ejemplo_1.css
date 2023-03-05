@@ -1,0 +1,28 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    flex: 50%;
+    margin: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .content{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.card .footer{
+    background-color: grey;
+    padding: 10px;
+}

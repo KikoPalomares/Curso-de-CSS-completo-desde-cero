@@ -49,7 +49,7 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
     8. Jugamos a Flexbox Defense
 6. Casos de uso y ejemplos de flexbox
    1. [Navegación](./6_Casos_de_uso_de_flexbox/6.1_Navegacion/6.1_Navegacion.md)
-   2. Tarjetas
+   2. [Tarjetas](./6_Casos_de_uso_de_flexbox/6.2_Tarjetas/6.2_Tarjetas.md)
    3. Objetos multimedia
    4. En formularios
 7. Proyecto de maquetación con flexbox
