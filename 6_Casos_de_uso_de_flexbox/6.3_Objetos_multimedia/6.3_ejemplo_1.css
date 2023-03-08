@@ -1,0 +1,16 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.media{
+    display: flex;
+    margin: 10px;
+    flex-direction: row-reverse;
+}
+
+.media p{
+    margin: 5px;
+}
