@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}

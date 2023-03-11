@@ -38,8 +38,24 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
    13. HTML del footer
    14. CSS del footer
    15. BONUS - Crear diferentes temas
-5. Aprendiendo Flexbox
-    1. [¿Qué es Flexbox?](./5_aprendiendo_flexbox/5.1_que_es_flexbox.md)
+5. Proyecto Responsive Web
+   1. Presentación y recursos
+   2. Estructura del proyecto
+   3. Estructura básica de HTML y CSS
+   4. Estilos generales
+   5. Montamos el grid
+   6. Estructura de menu, contenido y aside
+   7. HTML del menu
+   8. CSS del menu
+   9. HTML de los productos
+   10. CSS de los productos
+   11. HTML del aside
+   12. CSS del aside
+   13. HTML del footer
+   14. CSS del footer
+   15. BONUS - Efectos sobre las imágenes
+6. Aprendiendo Flexbox
+    1. [¿Qué es Flexbox?](./6_aprendiendo_flexbox/6.1_que_es_flexbox.md)
     2. Flex container
     3. Flex items
     4. Media queries con Flexbox
@@ -47,12 +63,12 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
     6. Layout con flexbox
     7. Jugamos a Flexbox Froggy
     8. Jugamos a Flexbox Defense
-6. Casos de uso y ejemplos de flexbox
-   1. [Navegación](./6_Casos_de_uso_de_flexbox/6.1_Navegacion/6.1_Navegacion.md)
-   2. [Tarjetas](./6_Casos_de_uso_de_flexbox/6.2_Tarjetas/6.2_Tarjetas.md)
-   3. [Objetos multimedia](./6_Casos_de_uso_de_flexbox/6.3_Objetos_multimedia/6.3_Objetos_multimedia.md)
+7. Casos de uso y ejemplos de flexbox
+   1. [Navegación](./7_Casos_de_uso_de_flexbox/7.1_Navegacion/7.1_Navegacion.md)
+   2. [Tarjetas](./7_Casos_de_uso_de_flexbox/7.2_Tarjetas/7.2_Tarjetas.md)
+   3. [Objetos multimedia](./7_Casos_de_uso_de_flexbox/7.3_Objetos_multimedia/7.3_Objetos_multimedia.md)
    4. En formularios
-7. Proyecto de maquetación con flexbox
+8. Proyecto de maquetación con flexbox
    1. Presentación y recursos
    2. Estructura del proyecto
    3. Header HTML y CSS
@@ -62,7 +78,7 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
    7. Contenido HTML y CSS
    8. Footer HTML y CSS
    9. BONUS - Flip Card
-8. Aprendiendo Grid layout
+9.  Aprendiendo Grid layout
    1. Introducción a Grid Layout
    2. Grid container
    3. Grid gap
@@ -70,7 +86,7 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
    5. Media queries con Grid Layout
    6. Layout responsive con Grid Layout sin media queries
    7. Jugamos a Grid Garden
-9. Proyecto usando Grid Layout
+10. Proyecto usando Grid Layout
    1. Presentación y recursos
    2. Estructura del proyecto
    3. HTML del calendario

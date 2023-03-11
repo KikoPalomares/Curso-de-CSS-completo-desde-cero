@@ -1,0 +1,111 @@
+.title-products{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+.search-input {
+    float: left;
+    padding: 10px;
+    width: 50%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-image: none;
+    outline-offset: -2px;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.search-input:focus{
+    box-shadow: none;
+}
+
+.select-order{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-image: none;
+    outline-offset: -2px;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: none;
+}
+
+.product-box{
+    text-align: center;
+    color: black; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-primary-dark);
+    text-decoration: none;
+}
+
+.product-box img{
+    transition: all .5s ease;
+}
+
+.product-box:hover img{
+    transform: scale(1.05);
+}
+
+.product-box h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-box .offer{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product-box .offer.hidden{
+    visibility: hidden;
+}
+
+.product-box strong del{
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.product-box .price{
+    font-size: 18px;
+}
+
+.pagination{
+    text-align: center;
+    list-style: none;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.pagination li{
+    display: inline-block;
+}
+
+.pagination li a{
+    color: black;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pagination li a.active{
+    color: black;
+    border: 1px solid black;
+}

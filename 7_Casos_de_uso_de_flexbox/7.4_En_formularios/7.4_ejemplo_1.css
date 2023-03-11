@@ -1,0 +1,20 @@
+body, html{
+    margin: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-group input{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.form-group label{
+    border: 1px solid gray;
+    padding: 5px;
+}

@@ -1,0 +1,39 @@
+.product-box img{
+    filter: grayscale(100%);
+}
+
+.product-box:hover img{
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+
+
+
+.product-box img{
+    filter: saturate(1);
+}
+
+.product-box:hover img{
+    filter: saturate(3);
+}
+
+
+
+
+.product-box img{
+    filter: brightness(1);
+}
+
+.product-box:hover img{
+    filter: brightness(2);
+}
+
+
+
+.product-box img{
+    filter: contrast(1);
+}
+
+.product-box:hover img{
+    filter: contrast(2);
+}
