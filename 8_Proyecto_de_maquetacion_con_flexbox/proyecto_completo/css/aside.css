@@ -1,0 +1,32 @@
+aside {
+    flex: 30%;
+    background-color: var(--color-gray-light);
+    padding: 20px;
+}
+
+aside h2, aside h3{
+    color: var(--color-primary);
+}
+
+.video-link img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.video-link h4 {
+    opacity: 0;
+    position: absolute;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.video-link:hover h4 {
+    opacity: 1;
+}
