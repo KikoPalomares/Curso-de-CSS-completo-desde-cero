@@ -79,13 +79,13 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
    8. Footer HTML y CSS
    9. BONUS - Flip Card
 9.  Aprendiendo Grid layout
-   1. Introducción a Grid Layout
-   2. Grid container
-   3. Grid gap
-   4. Grid items
-   5. Media queries con Grid Layout
-   6. Layout responsive con Grid Layout sin media queries
-   7. Jugamos a Grid Garden
+    1. Introducción a Grid Layout
+    2. Grid container
+    3. Grid gap
+    4. Grid items
+    5. Media queries con Grid Layout
+    6. Layout responsive con Grid Layout sin media queries
+    7. Jugamos a Grid Garden
 10. Proyecto usando Grid Layout
     1. Presentación y recursos
     2. Estructura del proyecto
