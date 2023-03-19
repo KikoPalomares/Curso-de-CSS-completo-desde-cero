@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    flex-grow: 1;
+    margin: 30px;
+    text-align: center;
+}
+
+header ul{
+    flex-grow: 1;
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin: 10px;
+    color: black;
+    transition: all 0.2s;
+}
+
+header ul li a:hover, header ul li a.active{
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    header h1{
+        text-align: left;
+    }
+    header ul{
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+}

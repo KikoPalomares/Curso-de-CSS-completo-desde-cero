@@ -1,0 +1,78 @@
+#sidebar ul{
+    margin: 0;
+    padding: 0 60px;
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+#sidebar ul li{
+    margin: 5px;
+    font-size: 25px;
+    width: 100%;
+}
+
+#sidebar ul li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#sidebar ul li a:hover, #sidebar ul li a.active{
+    color: var(--color-primary);
+}
+
+
+@media only screen and (max-width: 600px) {
+    #sidebar ul li{
+        width: auto;
+    }
+    #sidebar ul{
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #sidebar ul li a:hover, #sidebar ul li a.active{
+        border: none;
+        border-bottom: 5px solid var(--color-primary);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #sidebar ul li{
+        width: auto;
+    }
+    #sidebar ul{
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #sidebar ul li a:hover, #sidebar ul li a.active{
+        border: none;
+        border-bottom: 5px solid var(--color-primary);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #sidebar ul{
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+    #sidebar ul li a:hover, #sidebar ul li a.active{
+        border: none;
+        border-left: 5px solid var(--color-primary);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+}

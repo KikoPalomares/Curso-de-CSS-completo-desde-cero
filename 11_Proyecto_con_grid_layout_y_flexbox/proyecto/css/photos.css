@@ -1,0 +1,72 @@
+#photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column .photo {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.column .photo img{
+    width: 100%;
+    height: auto;
+}
+
+#photo-container .photo .title{
+    position: absolute;
+    line-height: 20px;
+    padding: 15px;
+    opacity: 1;
+    color: white;
+    transition: all 0.2s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#photo-container .photo:hover .title{
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .column {
+        flex: 50%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .column {
+        flex: 33.33%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .column {
+        flex: 25%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+}

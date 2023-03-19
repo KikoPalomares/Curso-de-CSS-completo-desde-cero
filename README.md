@@ -94,6 +94,17 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
    5. Preparamos el grid
    6. CSS de las tareas
    7. BONUS - Detalles de las tareas en hover
+11. Proyecto con Grid Layout y Flexbox
+    1. Presentación y recursos
+    2. Estructura del proyecto
+    3. HTML de los menús
+    4. Montamos el CSS Grid Layout
+    5. CSS del header
+    6. CSS del sidebar
+    7. Añadimos el Footer
+    8. JavaScript para añadir las imágenes
+    9. Flex para organizar las imágenes
+    10. BONUS - Las imágenes en columnas CSS
 
 ------------
 
