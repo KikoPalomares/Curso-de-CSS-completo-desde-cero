@@ -87,13 +87,13 @@ Como desarrollador web es importante tener un buen conocimiento en CSS. En este 
    6. Layout responsive con Grid Layout sin media queries
    7. Jugamos a Grid Garden
 10. Proyecto usando Grid Layout
-   1. Presentación y recursos
-   2. Estructura del proyecto
-   3. HTML del calendario
-   4. CSS del container
-   5. Preparamos el grid
-   6. CSS de las tareas
-   7. BONUS - Detalles de las tareas en hover
+    1. Presentación y recursos
+    2. Estructura del proyecto
+    3. HTML del calendario
+    4. CSS del container
+    5. Preparamos el grid
+    6. CSS de las tareas
+    7. BONUS - Detalles de las tareas en hover
 11. Proyecto con Grid Layout y Flexbox
     1. Presentación y recursos
     2. Estructura del proyecto
